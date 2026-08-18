@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ragib Hussain Patel &amp; Dr. Mohammadi Begum K — Wedding Invitation</title>
+<meta name="description" content="Nikah on Saturday 29 August 2026, Ballari. Valima on Monday 31 August 2026, Kerebilachi. Cordially inviting you with your family.">
+<meta property="og:title" content="Wedding Invitation — Ragib Hussain Patel &amp; Dr. Mohammadi Begum K">
+<meta property="og:description" content="Nikah — Sat 29 Aug 2026, Ballari · Valima — Mon 31 Aug 2026, Kerebilachi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FAF5E9;
+  --paper-deep:#F1E9D6;
+  --ink:#4A3F2E;
+  --ink-soft:#6E6045;
+  --gold:#B08B2E;
+  --gold-lt:#E7CE86;
+  --gold-dk:#7E6118;
+  --silver:#9C9A93;
+  --rule:rgba(176,139,46,.42);
+  --shadow:rgba(74,63,46,.18);
+  --f-script:'Pinyon Script',cursive;
+  --f-display:'Cinzel',serif;
+  --f-body:'Cormorant Garamond',serif;
+  --f-util:'Jost',system-ui,sans-serif;
+  --f-ar:'Amiri',serif;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:
+    radial-gradient(120% 60% at 50% 0%,#FDFAF2 0%,var(--paper) 45%,var(--paper-deep) 100%) fixed,
+    var(--paper);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:17px;
+  line-height:1.65;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+body.locked{overflow:hidden;height:100vh}
+
+/* ---------- paper grain ---------- */
+.grain{
+  position:fixed;inset:0;pointer-events:none;z-index:3;opacity:.28;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+}
+
+/* ---------- gold foil text ---------- */
+.foil{
+  color:var(--gold);
+  background:linear-gradient(102deg,#7E6118 0%,#B08B2E 22%,#F0DFA6 44%,#C9A63C 58%,#8A6B1C 80%,#B08B2E 100%);
+  background-size:220% 100%;
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+  animation:sheen 9s ease-in-out infinite;
+}
+@keyframes sheen{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+
+/* ---------- cover ---------- */
+#cover{position:fixed;inset:0;z-index:60;display:flex}
+.leaf{
+  position:absolute;top:0;bottom:0;width:50.6%;
+  background:
+    linear-gradient(180deg,#FCF8EE,#F3EBD8 55%,#EADFC5);
+  transition:transform 1.15s cubic-bezier(.66,.02,.28,1);
+  will-change:transform;
+}
+.leaf.l{left:0;box-shadow:inset -14px 0 26px -18px rgba(74,63,46,.5)}
+.leaf.r{right:0;box-shadow:inset 14px 0 26px -18px rgba(74,63,46,.5)}
+#cover.open .leaf.l{transform:translateX(-101%)}
+#cover.open .leaf.r{transform:translateX(101%)}
+#cover.open .cover-inner{opacity:0;transform:translateY(-14px)}
+#cover.gone{display:none}
+
+.cover-inner{
+  position:relative;z-index:2;margin:auto;text-align:center;padding:28px 26px;
+  transition:opacity .5s ease,transform .6s ease;
+}
+.medallion{
+  width:112px;height:112px;margin:0 auto 26px;
+  display:grid;place-items:center;
+  padding:10px;overflow:hidden;
+  border:1.5px solid var(--silver);
+  outline:1px solid rgba(156,154,147,.45);outline-offset:5px;
+  background:linear-gradient(145deg,#F7F2E4,#E8E2D2);
+  box-shadow:0 2px 10px rgba(74,63,46,.12), inset 0 1px 0 #fff;
+}
+.medallion .ar{
+  font-family:var(--f-ar);font-size:19px;line-height:1.85;
+  direction:rtl;text-align:center;white-space:nowrap;
+  color:#8C8A83;
+  background:linear-gradient(120deg,#7C7A73,#CFCCC2 45%,#8E8C85);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.medallion .ar b{display:block;font-weight:400}
+.cover-kicker{
+  font-family:var(--f-display);letter-spacing:.42em;text-indent:.42em;
+  font-size:11px;text-transform:uppercase;color:var(--ink-soft);margin-bottom:22px;
+}
+.cover-names{font-family:var(--f-script);font-size:clamp(34px,10vw,48px);line-height:1.25}
+.cover-amp{font-family:var(--f-body);font-style:italic;font-size:17px;color:var(--ink-soft);margin:2px 0 4px}
+.cover-date{
+  font-family:var(--f-util);font-weight:300;letter-spacing:.24em;text-indent:.24em;
+  font-size:11.5px;color:var(--ink-soft);margin-top:24px;text-transform:uppercase;
+}
+.open-btn{
+  margin-top:34px;font-family:var(--f-util);font-weight:400;font-size:12px;
+  letter-spacing:.26em;text-indent:.26em;text-transform:uppercase;
+  padding:14px 30px;border:1px solid var(--rule);border-radius:999px;
+  background:transparent;color:var(--gold-dk);cursor:pointer;
+  transition:background .3s ease,border-color .3s ease;
+}
+.open-btn:hover,.open-btn:focus-visible{background:rgba(176,139,46,.09);border-color:var(--gold)}
+.open-hint{display:block;margin-top:14px;font-family:var(--f-util);font-size:10px;letter-spacing:.2em;color:#A79B80;text-transform:uppercase}
+
+/* ---------- card frame ---------- */
+.sheet{max-width:520px;margin:0 auto;padding:26px 14px 60px;position:relative;z-index:1}
+.frame{
+  position:relative;padding:44px 22px 40px;
+  border:1px solid var(--rule);
+  background:linear-gradient(180deg,rgba(255,255,255,.55),rgba(255,255,255,0) 30%);
+  box-shadow:0 18px 44px -30px var(--shadow);
+}
+.frame::before{
+  content:"";position:absolute;inset:7px;border:1px solid rgba(176,139,46,.22);pointer-events:none;
+}
+.corner{position:absolute;width:52px;height:52px;color:var(--gold);opacity:.62;pointer-events:none}
+.corner.tl{top:12px;left:12px}
+.corner.tr{top:12px;right:12px;transform:scaleX(-1)}
+.corner.bl{bottom:12px;left:12px;transform:scaleY(-1)}
+.corner.br{bottom:12px;right:12px;transform:scale(-1)}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .85s ease,transform .85s cubic-bezier(.22,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+
+/* ---------- blocks ---------- */
+.bism{text-align:center;margin-bottom:8px}
+.bism .glyph{
+  font-family:var(--f-ar);font-size:clamp(20px,6.2vw,27px);line-height:1.9;display:block;
+  direction:rtl;color:var(--silver);
+}
+.bism p{font-family:var(--f-body);font-style:italic;font-size:15px;color:var(--ink-soft);margin-top:6px}
+
+.rule-orn{display:flex;align-items:center;gap:12px;margin:26px 0;color:var(--gold)}
+.rule-orn::before,.rule-orn::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--rule),transparent)}
+.rule-orn svg{width:34px;height:12px;opacity:.8}
+
+.host{text-align:center;margin-top:22px}
+.host .lead{font-style:italic;font-size:15.5px;color:var(--ink-soft)}
+.host .names{font-family:var(--f-script);font-size:29px;line-height:1.35;margin:6px 0 2px}
+.host .sub{font-family:var(--f-util);font-weight:300;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft)}
+.invite-line{text-align:center;font-style:italic;font-size:16px;color:var(--ink-soft);margin:20px auto 0;max-width:34ch}
+
+.person{text-align:center;margin-top:26px}
+.person h2{font-family:var(--f-script);font-weight:400;font-size:clamp(38px,11.5vw,54px);line-height:1.16}
+.person .suffix{
+  font-family:var(--f-util);font-weight:400;font-size:10.5px;letter-spacing:.28em;text-indent:.28em;
+  text-transform:uppercase;color:var(--gold-dk);margin-top:8px;
+}
+.lineage{margin-top:14px;font-size:15px;line-height:1.75;color:var(--ink-soft)}
+.lineage span{display:block}
+.with{font-family:var(--f-body);font-style:italic;font-size:19px;color:var(--gold-dk);margin:22px 0 0}
+
+/* ---------- countdown ---------- */
+.count{margin:34px 0 6px;text-align:center}
+.count .label{font-family:var(--f-util);font-weight:300;font-size:10px;letter-spacing:.3em;text-indent:.3em;text-transform:uppercase;color:var(--ink-soft)}
+.count .grid{display:flex;justify-content:center;gap:10px;margin-top:14px}
+.count .cell{min-width:64px;padding:12px 6px;border:1px solid var(--rule);background:rgba(255,255,255,.42)}
+.count .n{font-family:var(--f-display);font-size:24px;line-height:1;color:var(--gold-dk);font-variant-numeric:tabular-nums}
+.count .u{font-family:var(--f-util);font-weight:300;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);margin-top:7px}
+.count .today{font-family:var(--f-script);font-size:30px;color:var(--gold-dk)}
+
+/* ---------- events ---------- */
+.events{margin-top:8px}
+.event{padding:30px 4px;border-top:1px solid rgba(176,139,46,.24)}
+.event:first-child{border-top:0}
+.event h3{font-family:var(--f-script);font-weight:400;font-size:34px;text-align:center;line-height:1.2}
+.event .tag{
+  display:block;text-align:center;font-family:var(--f-util);font-weight:300;
+  font-size:10px;letter-spacing:.3em;text-indent:.3em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:8px;
+}
+.when{text-align:center;margin-top:16px}
+.when .day{font-family:var(--f-util);font-weight:300;font-size:12px;letter-spacing:.24em;text-indent:.24em;text-transform:uppercase;color:var(--ink-soft)}
+.when .dnum{font-family:var(--f-display);font-size:44px;line-height:1.05;color:var(--gold-dk);margin:6px 0 2px}
+.when .mon{font-family:var(--f-display);font-size:15px;letter-spacing:.2em;text-indent:.2em;text-transform:uppercase}
+.when .hij{font-style:italic;font-size:14px;color:var(--ink-soft);margin-top:6px}
+.when .time{font-family:var(--f-display);font-size:15px;letter-spacing:.14em;margin-top:10px}
+.venue{text-align:center;margin-top:16px}
+.venue .vname{font-family:var(--f-script);font-size:26px;line-height:1.3;color:var(--gold-dk)}
+.venue .vaddr{font-size:15px;line-height:1.6;color:var(--ink-soft);margin-top:5px;max-width:30ch;margin-inline:auto}
+.actions{display:flex;justify-content:center;gap:9px;margin-top:18px;flex-wrap:wrap}
+.chip{
+  display:inline-flex;align-items:center;gap:7px;text-decoration:none;cursor:pointer;
+  font-family:var(--f-util);font-weight:400;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold-dk);background:rgba(255,255,255,.5);
+  border:1px solid var(--rule);border-radius:999px;padding:10px 17px;
+  transition:background .25s ease,border-color .25s ease,color .25s ease;
+}
+.chip:hover,.chip:focus-visible{background:rgba(176,139,46,.12);border-color:var(--gold)}
+.chip svg{width:13px;height:13px;flex:none}
+
+/* ---------- closing ---------- */
+.insha{text-align:center;margin-top:34px;font-family:var(--f-display);font-size:13px;letter-spacing:.32em;text-indent:.32em;text-transform:uppercase;color:var(--gold-dk)}
+.regards{text-align:center;margin-top:26px}
+.regards .r1{font-style:italic;font-size:15px;color:var(--ink-soft)}
+.regards .r2{font-family:var(--f-display);font-size:16px;margin-top:5px}
+.regards .r3{font-family:var(--f-script);font-size:24px;color:var(--gold-dk);margin-top:2px}
+
+.contact{margin-top:30px;text-align:center}
+.contact .label{font-family:var(--f-util);font-weight:300;font-size:10px;letter-spacing:.3em;text-indent:.3em;text-transform:uppercase;color:var(--ink-soft)}
+.contact .addr{font-size:15px;color:var(--ink-soft);margin-top:8px;line-height:1.6}
+.phones{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:14px}
+
+.share-wrap{text-align:center;margin-top:36px}
+.footnote{text-align:center;margin-top:26px;font-family:var(--f-util);font-weight:300;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:#B0A488}
+
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+@media (max-width:360px){
+  .count .cell{min-width:54px}
+  .count .n{font-size:20px}
+}
+@media (prefers-reduced-motion:reduce){
+  .foil{animation:none}
+  .rv{opacity:1;transform:none;transition:none}
+  .leaf{transition:none}
+  .cover-inner{transition:none}
+}
+</style>
+</head>
+<body class="locked">
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ COVER ============ -->
+<div id="cover">
+  <div class="leaf l" aria-hidden="true"></div>
+  <div class="leaf r" aria-hidden="true"></div>
+  <div class="cover-inner">
+    <div class="medallion"><span class="ar"><b>&#1576;&#1616;&#1587;&#1618;&#1605;&#1616; &#1575;&#1604;&#1604;&#1617;&#1607;&#1616;</b><b>&#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1618;&#1605;&#1606; &#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1610;&#1605;</b></span></div>
+    <div class="cover-kicker">Wedding Invitation</div>
+    <div class="cover-names foil">Ragib Hussain Patel</div>
+    <div class="cover-amp">with</div>
+    <div class="cover-names foil">Dr. Mohammadi Begum K</div>
+    <div class="cover-date">29 &amp; 31 August 2026</div>
+    <button class="open-btn" id="openBtn">Open invitation</button>
+    <span class="open-hint">Insha Allah</span>
+  </div>
+</div>
+
+<!-- ============ INVITATION ============ -->
+<main class="sheet" id="sheet">
+<div class="frame">
+  <svg class="corner tl" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M4 56C4 30 16 6 44 4"/>
+    <path d="M10 56c2-20 12-38 34-42"/>
+    <path d="M44 4c8 0 12 5 11 11-1 5-6 8-10 6-3-2-3-7 0-8 2-1 4 0 4 2"/>
+    <circle cx="49" cy="15" r="1.6" fill="currentColor" stroke="none"/>
+    <path d="M4 44c6 1 10 5 11 12"/>
+  </svg>
+  <svg class="corner tr" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M4 56C4 30 16 6 44 4"/><path d="M10 56c2-20 12-38 34-42"/>
+    <path d="M44 4c8 0 12 5 11 11-1 5-6 8-10 6-3-2-3-7 0-8 2-1 4 0 4 2"/>
+    <circle cx="49" cy="15" r="1.6" fill="currentColor" stroke="none"/><path d="M4 44c6 1 10 5 11 12"/>
+  </svg>
+  <svg class="corner bl" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M4 56C4 30 16 6 44 4"/><path d="M10 56c2-20 12-38 34-42"/>
+    <path d="M44 4c8 0 12 5 11 11-1 5-6 8-10 6-3-2-3-7 0-8 2-1 4 0 4 2"/>
+    <circle cx="49" cy="15" r="1.6" fill="currentColor" stroke="none"/><path d="M4 44c6 1 10 5 11 12"/>
+  </svg>
+  <svg class="corner br" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M4 56C4 30 16 6 44 4"/><path d="M10 56c2-20 12-38 34-42"/>
+    <path d="M44 4c8 0 12 5 11 11-1 5-6 8-10 6-3-2-3-7 0-8 2-1 4 0 4 2"/>
+    <circle cx="49" cy="15" r="1.6" fill="currentColor" stroke="none"/><path d="M4 44c6 1 10 5 11 12"/>
+  </svg>
+
+  <section class="bism rv">
+    <span class="glyph">&#1576;&#1616;&#1587;&#1618;&#1605;&#1616; &#1575;&#1604;&#1604;&#1617;&#1607;&#1616; &#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1618;&#1605;&#1606; &#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1610;&#1605;</span>
+    <p>In the name of Allah, the most beneficent, the most merciful</p>
+  </section>
+
+  <section class="host rv">
+    <div class="lead">Mrs. &amp; Mr.</div>
+    <div class="names foil">P Mohammed Aijaz</div>
+    <div class="sub">Land Lord, Kerebilachi</div>
+    <p class="invite-line">cordially invite you with your family to the Nikah &amp; Valima ceremony of our beloved son</p>
+  </section>
+
+  <section class="person rv">
+    <h2 class="foil">Ragib Hussain Patel</h2>
+    <div class="suffix">M.S., United Kingdom</div>
+    <div class="lineage">
+      <span>Paternal Grand S/o Alhaj Late P Ameer Hussain</span>
+      <span>Maternal Grand S/o Janab Mohammed Khaleel (Wazeer Saab)</span>
+    </div>
+    <div class="with">with</div>
+  </section>
+
+  <section class="person rv">
+    <h2 class="foil">Dr. Mohammadi Begum K</h2>
+    <div class="suffix">M.D., B.U.M.S.</div>
+    <div class="lineage">
+      <span>D/o K. Dadapeer, Retd. ASI, Police Dept.</span>
+      <span>Paternal Grand D/o Late Janab K. Ahmed Sab, Hospet</span>
+      <span>Maternal Grand D/o Late Janab Younus Khan,<br>Gadang Street, C.B. Bellari</span>
+    </div>
+  </section>
+
+  <div class="rule-orn rv" aria-hidden="true">
+    <svg viewBox="0 0 40 14" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 7c6-7 12 7 18 0s10-6 18 0"/><circle cx="20" cy="7" r="1.7" fill="currentColor" stroke="none"/></svg>
+  </div>
+
+  <section class="count rv" id="count">
+    <div class="label">Counting down to the Nikah</div>
+    <div class="grid" id="countGrid">
+      <div class="cell"><div class="n" id="cd">–</div><div class="u">Days</div></div>
+      <div class="cell"><div class="n" id="ch">–</div><div class="u">Hours</div></div>
+      <div class="cell"><div class="n" id="cm">–</div><div class="u">Minutes</div></div>
+      <div class="cell"><div class="n" id="cs">–</div><div class="u">Seconds</div></div>
+    </div>
+  </section>
+
+  <div class="rule-orn rv" aria-hidden="true">
+    <svg viewBox="0 0 40 14" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 7c6-7 12 7 18 0s10-6 18 0"/><circle cx="20" cy="7" r="1.7" fill="currentColor" stroke="none"/></svg>
+  </div>
+
+  <section class="events">
+    <article class="event rv">
+      <span class="tag">Ceremony one</span>
+      <h3 class="foil">Mehfil-e-Nikah</h3>
+      <div class="when">
+        <div class="day">Saturday</div>
+        <div class="dnum">29</div>
+        <div class="mon">August 2026</div>
+        <div class="hij">16 Rabi&rsquo; al-Awwal 1448 H</div>
+        <div class="time">12:30 p.m.</div>
+      </div>
+      <div class="venue">
+        <div class="vname">King&rsquo;s Palace Convention Hall</div>
+        <div class="vaddr">Behind Masjid-e-Faisal, Tilak Nagar,<br>Kuvempu Nagar, Ballari</div>
+      </div>
+      <div class="actions">
+        <a class="chip" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=King%27s%20Palace%20Convention%20Hall%2C%20Tilak%20Nagar%2C%20Kuvempu%20Nagar%2C%20Ballari">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          Directions
+        </a>
+        <a class="chip" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mehfil-e-Nikah%20%E2%80%94%20Ragib%20%26%20Dr.%20Mohammadi&dates=20260829T070000Z/20260829T100000Z&details=Nikah%20ceremony%20of%20Ragib%20Hussain%20Patel%20with%20Dr.%20Mohammadi%20Begum%20K&location=King%27s%20Palace%20Convention%20Hall%2C%20Behind%20Masjid-e-Faisal%2C%20Tilak%20Nagar%2C%20Kuvempu%20Nagar%2C%20Ballari">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          Add to calendar
+        </a>
+      </div>
+    </article>
+
+    <article class="event rv">
+      <span class="tag">Ceremony two</span>
+      <h3 class="foil">Dawat-e-Valima</h3>
+      <div class="when">
+        <div class="day">Monday</div>
+        <div class="dnum">31</div>
+        <div class="mon">August 2026</div>
+        <div class="hij">18 Rabi&rsquo; al-Awwal 1448 H</div>
+        <div class="time">1:30 p.m. onwards</div>
+      </div>
+      <div class="venue">
+        <div class="vname">Azmath Wedding Hall</div>
+        <div class="vaddr">Bazaar Road, Kerebilachi,<br>Channagiri (Tq.), Davanagere (Dist.)</div>
+      </div>
+      <div class="actions">
+        <a class="chip" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Azmath%20Wedding%20Hall%2C%20Bazaar%20Road%2C%20Kerebilachi%2C%20Channagiri%2C%20Davanagere">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          Directions
+        </a>
+        <a class="chip" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Dawat-e-Valima%20%E2%80%94%20Ragib%20%26%20Dr.%20Mohammadi&dates=20260831T080000Z/20260831T113000Z&details=Valima%20reception%20of%20Ragib%20Hussain%20Patel%20with%20Dr.%20Mohammadi%20Begum%20K&location=Azmath%20Wedding%20Hall%2C%20Bazaar%20Road%2C%20Kerebilachi%2C%20Channagiri%20(Tq.)%2C%20Davanagere%20(Dist.)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          Add to calendar
+        </a>
+      </div>
+    </article>
+  </section>
+
+  <div class="insha rv">Insha Allah</div>
+
+  <section class="regards rv">
+    <div class="r1">Warm regards</div>
+    <div class="r2">Dr. P Mohammed Ilyaz</div>
+    <div class="r3 foil">Patel&rsquo;s Family</div>
+  </section>
+
+  <section class="contact rv">
+    <div class="label">From</div>
+    <div class="addr">Mrs. &amp; Mr. P Mohammed Aijaz<br>Jamiya Abad, Kerebilachi,<br>Channagiri Tq., Davanagere Dist.</div>
+    <div class="phones">
+      <a class="chip" href="tel:+919538641403">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 3h4l2 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>
+        95386 41403
+      </a>
+      <a class="chip" href="tel:+916366171427">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 3h4l2 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>
+        63661 71427
+      </a>
+      <a class="chip" href="tel:+918904991403">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 3h4l2 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>
+        89049 91403
+      </a>
+    </div>
+  </section>
+
+  <div class="share-wrap rv">
+    <button class="chip" id="shareBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+      Share invitation
+    </button>
+  </div>
+
+  <p class="footnote rv">Your presence is our blessing</p>
+</div>
+</main>
+
+<script>
+(function(){
+  var cover = document.getElementById('cover');
+  var openBtn = document.getElementById('openBtn');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function reveal(){
+    var items = document.querySelectorAll('.rv');
+    if(!('IntersectionObserver' in window) || reduce){
+      items.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    },{threshold:0.12, rootMargin:'0px 0px -8% 0px'});
+    items.forEach(function(el){ io.observe(el); });
+  }
+
+  function openCard(){
+    cover.classList.add('open');
+    document.body.classList.remove('locked');
+    window.scrollTo(0,0);
+    setTimeout(function(){ cover.classList.add('gone'); }, reduce ? 0 : 1250);
+    setTimeout(reveal, reduce ? 0 : 320);
+  }
+  openBtn.addEventListener('click', openCard);
+
+  /* countdown to Nikah — 29 Aug 2026, 12:30 IST */
+  var target = new Date('2026-08-29T12:30:00+05:30').getTime();
+  var grid = document.getElementById('countGrid');
+  var f = function(n){ return n < 10 ? '0'+n : ''+n; };
+
+  function tick(){
+    var diff = target - Date.now();
+    if(diff <= 0){
+      grid.innerHTML = '<div class="today">Barakallahu lakuma</div>';
+      clearInterval(timer);
+      return;
+    }
+    var s = Math.floor(diff/1000);
+    document.getElementById('cd').textContent = Math.floor(s/86400);
+    document.getElementById('ch').textContent = f(Math.floor(s%86400/3600));
+    document.getElementById('cm').textContent = f(Math.floor(s%3600/60));
+    document.getElementById('cs').textContent = f(s%60);
+  }
+  tick();
+  var timer = setInterval(tick, 1000);
+
+  /* share */
+  document.getElementById('shareBtn').addEventListener('click', function(){
+    var data = {
+      title: 'Wedding Invitation — Ragib & Dr. Mohammadi',
+      text: 'Nikah: Sat 29 Aug 2026, Ballari. Valima: Mon 31 Aug 2026, Kerebilachi. You and your family are cordially invited, Insha Allah.',
+      url: location.href
+    };
+    if(navigator.share){
+      navigator.share(data).catch(function(){});
+    } else if(navigator.clipboard){
+      navigator.clipboard.writeText(location.href).then(function(){
+        var b = document.getElementById('shareBtn');
+        var old = b.innerHTML;
+        b.textContent = 'Link copied';
+        setTimeout(function(){ b.innerHTML = old; }, 1800);
+      });
+    }
+  });
+})();
+</script>
+</body>
+</html>
